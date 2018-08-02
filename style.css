@@ -1,0 +1,55 @@
+#menu{
+	position: absolute;
+	top: 212px;
+	left: 0px;
+	width:292px;
+	background-color:#06C;
+	height: 728px;
+	background:url(img/menu.png), no-repeat, right;
+	}
+	img {
+	border:none;
+	}
+#hlavicka {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	background:url(img/head.png), no-repeat, center;
+	width: 1024px;
+	height: 212px;
+	}
+#lave {
+	position: absolute;
+	top: 212px;
+	left: 916px;
+	background:url(img/lave.png), no-repeat, center;
+	width: 52px;
+	height: 728px;
+	}
+.pole{
+	border:none;
+	}
+#telo {
+	background-image:url(img/obsah.png);
+	background:no-repeat;
+	width:624px;
+	position: absolute;
+	top: 230px;
+	left: 292px;
+	height: 724px;
+}
+a {
+	text-decoration:none;
+	color:#366;
+	}
+a:hover {
+	text-decoration:underline;
+	color:#3F9;}
+.menu {
+	text-decoration:none;
+	color:#FFF;}
+.menu:hover {
+	text-decoration:underline;
+	color:#3F9;}
+	.exp{
+		background:url(img/exp.png), repeat-x;}

@@ -1,0 +1,2 @@
+ hej, ale robi sa to rozumnejsie, pouziva sa jedna premenna typu timestamp (nazvime ju last_login) a potom sa to robi last_login=NOW()
+takto vyzera sql query ktore pouziva mangos: UPDATE account SET sessionkey = 'Mysteria', last_ip = 'Mysteria', last_login = NOW(), locale = '%u', failed_logins = 0 WHERE username = 'Mysteria'
